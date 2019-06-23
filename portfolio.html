@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- I'm going dark mode for this one I edited the background on Photoshop and made bootstrap dark elements-->
+    <!-- Nav Bar -->
+    <!-- I put the container in the nav bar to match the space of the rest of the content -->
+
+    <!-- made navbar start on small screens I think that is what the instructions implied -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark ">
+
+        <div class="container">
+            <h1 id="pageLogo">Wes Jones</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- I thought the collapse menu was cool so I looked up how to do it -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container" id="bioContainer">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 id="aboutMeHeader">Portfolio</h1>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row">
+
+
+            <div class="col-sm-6">
+                <img src="https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/Placeholder_1.jpg"
+                    class="img-fluid img-thumbnail" id="portfolio1" alt="image 1">
+                    <h3>RPG Game</h3>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/Placeholder_2.jpg"
+                    class="img-fluid img-thumbnail" id="portfolio2" alt="image 2">
+                    <h3>Word Guess</h3>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/Placeholder_3.jpg"
+                    class="img-fluid img-thumbnail" id="portfolio3" alt="image 3">
+                    <h3>Trivia Game</h3>
+            </div>
+
+            <div class="col-sm-6">
+            <img src="https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/Placeholder_4.jpg"
+            class="img-fluid img-thumbnail" id="portfolio4" alt="image 4">
+            <h3>Info Widget</h3>
+        </div>
+
+
+            <div class="col-sm-6">
+                <img src="https://github.com/AviMKabir/Basic-Portfolio/blob/master/assets/images/Placeholder_5.jpg?raw=true"
+                    class="img-fluid img-thumbnail" id="portfolio5" alt="image 5">
+                    <h3>Rock Paper Scissors</h3>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <footer id="sticky-footer" class="fixed-bottom py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright 2019 &copy; </small>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

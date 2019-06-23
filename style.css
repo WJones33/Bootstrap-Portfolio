@@ -1,0 +1,112 @@
+hr {
+
+    border-color: rgba(255, 255, 255, 0.548);
+    background-color: rgba(255, 255, 255, 0.575);
+    color: rgba(255, 255, 255, 0.562);
+
+}
+
+
+body {
+
+background-image: url(https://i.pinimg.com/originals/ea/3f/d3/ea3fd3102ccf575e3c33954f73eab78d.jpg);
+color: white;
+
+
+}
+
+.navbar {
+
+    background-image: url(https://i.pinimg.com/originals/ea/3f/d3/ea3fd3102ccf575e3c33954f73eab78d.jpg);
+
+   
+    border-bottom:3px solid rgba(0, 0, 0, 0.199);
+    
+   
+}
+
+.navbar a {
+
+
+    
+
+}
+
+#pageLogo  {
+
+     
+    
+}
+
+
+#aboutMeHeader {
+
+    margin-top: 20px;
+
+
+}
+
+#bioContainer {
+
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.199) ;
+    min-height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(153, 211, 255, 0.13);
+    
+    
+   
+
+    
+}
+
+#bio-image {
+
+    
+    margin-bottom: 10px;
+    
+    
+}
+
+
+
+
+
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5 {
+
+
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+h3 {
+
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left: 0 ;
+    right: 0 ;
+    color: white;
+    background-color: #92d6d381;
+    padding: 10px ;
+    
+
+
+
+}
+
+
+#submitButton {
+
+    margin-bottom: 15px;
+    
+}
+
+#sticky-footer {
+    flex-shrink: none;
+  }
